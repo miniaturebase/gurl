@@ -52,7 +52,6 @@ func main() {
 		os.Exit(0)
 	}
 
-	fmt.Println()
 	PrintQuery(uri)
 }
 
@@ -250,6 +249,7 @@ func PrintQuery(uri *url.URL) {
 	}
 
 	sort.Strings(fields)
+	fmt.Println()
 	fmt.Print(Chalk(Yellow, " Query Parameters\n"))
 	fmt.Print(Chalk(Yellow, " ----------------\n\n"))
 
