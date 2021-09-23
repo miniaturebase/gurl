@@ -1,3 +1,5 @@
+bin/*
+!bin/.gitkeep
 
 # Created by https://www.toptal.com/developers/gitignore/api/golang,macos,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=golang,macos,linux,windows
